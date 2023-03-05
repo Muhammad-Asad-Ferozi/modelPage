@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&family=Tilt+Prism&display=swap');
+body{
+
+    font-family: 'Shantell Sans', cursive;
+    
+   
+    background: linear-gradient(to top left, #0284b8, #ddc67c);
+    height: 100vh;
+}
+.hidden{
+      display: none;
+}
+
+.model{
+    
+    border: 7px groove lightslategray;
+    border-radius: 20px;
+    background-color: #ff9af2;
+    padding: 20px;
+    width: 40vw;
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 25vw;
+    z-index: 10;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+    
+}
+
+.showButton{
+    
+    padding: 20px 40px;
+    font-size: 25px;
+    font-family: 'Tilt Prism', cursive;
+    font-weight: 700;
+    border-radius: 40px;
+    
+    border: 2px solid lightblue;
+    background: linear-gradient(to top left, #0284b8, #ddc67c);
+}
+
+.closeButton{
+    float: right;
+
+    background: none;
+    border: none;
+    font-size: 25px;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: radial-gradient(ellipse at center, #ffffff, #00000078);
+}
+
+
+.showButton:hover{
+    background: linear-gradient(to top left, #d2dadd, #10ef27);
+    cursor: pointer;
+    color: rgb(244, 244, 252);
+    
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.closeButton:hover{
+    color: red;
+    cursor: crosshair;
+    
+}
+
+.overlay:hover{
+    cursor: pointer;
+}
